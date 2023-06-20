@@ -33,7 +33,7 @@ form input{
   width: 85%;
   outline: none;
   border: none;
-  background: #dfe9f5;
+  background: #1067cc;
   padding: 12px 14px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -63,7 +63,6 @@ form input{
   background: var(--bg-color);
   transform: scale(1.1);
 }
-
 
 .or{
   font-size: 0.8rem;
@@ -100,7 +99,7 @@ form input{
 }
 
 .not-member a{
-  color: rgb(228, 151, 8);
+  color: #1067cc;
   text-decoration: none;
 }
 
