@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta 
+			charset="UTF-8"
+		>
+		<title> GO </title>
+		<link 
+			href="css/login.css"
+			rel="stylesheet"
+		>
+		<!-- Font Awesome Cdn Link -->
+		<link 
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Hello Again!</h1>
+			<p>Welcome back we've <br> missed you!</p>
+			<form
+			method="post"
+			action="login.php"
+			>
+				<input 
+					type="text" 
+					placeholder="Enter username"
+					required
+				>
+				<input 
+					type="password" 
+					placeholder="Password"
+					required
+				>
+				<p 
+					class="recover"
+				>
+					<a 
+						href="#"
+					>Recover Password</a>
+				</p>
+			<!-- <closeform></closeform> -->
+			
+			<button 
+				type="submit"
+			>Sign in</button>
+			<p class="or">
+		</form>
+		----- or continue with -----
+			</p>
+			<div class="icons">
+				<i class="fab fa-google"></i>
+				<i class="fab fa-facebook"></i>
+			</div>
+			<div class="not-member">
+				Not a member? <a href="singup.html">Register Now</a>
+			</div>
+		</div>
+	</body>
+</html>
