@@ -50,6 +50,16 @@ form input{
   color: #07001f;
 }
 
+input[type=submit] {
+  width: 280px;
+  height: 40px;
+  margin-top: 15px;
+  border: none;
+  background-color:#1067cc;
+  color: white;
+  font-size: 14px;
+}
+  
 .home-btn {
   display: inline-block;
   font-size: 16px;
@@ -106,11 +116,4 @@ form input{
 a:hover{
   text-decoration: underline;
 }
-input[type=submit] {
-  width: 280px;
-  height: 40px;
-  margin-top: 15px;
-  border: none;
-  background-color:#1067cc;
-  color: white;
-  font-size: 14px;
+
