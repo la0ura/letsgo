@@ -56,7 +56,7 @@ input[type=submit] {
   height: 40px;
   margin-top: 15px;
   border: none;
-  background-color: rgb(228, 151, 8);
+  background-color:#1067cc;
   color: white;
   font-size: 14px;
 }
@@ -73,6 +73,5 @@ p {
   margin-top: 10px;
 }
 .para-2 a {
-  color: rgb(228, 151, 8);
+  color:#1067cc;
 }
-
